@@ -45,3 +45,24 @@ a {
 a:hover {
     color: chocolate;
 }
+a.bl {
+    border: solid 1px;
+    border-radius: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+a.bl:hover {
+    background-color: azure;
+    border: solid 1px;
+    border-radius: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
+a.bl:active {
+    background-color: rgb(117, 47, 11);
+    color: azure;
+    border: solid 1px;
+    border-radius: 6px;
+    padding-left: 9px;
+    padding-right: 9px;
+}
