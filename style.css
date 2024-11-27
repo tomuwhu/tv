@@ -17,7 +17,11 @@ div.cont {
     display: flex;
     justify-content: center;
 }
-
+i {
+    padding: 0px;
+    margin: 0px;
+    
+}
 div.k {
     color: rgb(5, 35, 36);
     background-color: cornsilk;
@@ -30,7 +34,7 @@ div.k {
     height: 150px;
 }
 
-div.k2 {
+div.k2, div.k3 {
     color: rgb(5, 35, 36);
     background-color: cornsilk;
     text-align: center;
@@ -40,6 +44,10 @@ div.k2 {
     margin: 5px;
     width: 220px;
     height: 150px;
+}
+
+div.k3 {
+    background-color: rgb(211, 246, 234);
 }
 
 div.k0 {
@@ -68,6 +76,7 @@ a {
 
 a:hover {
     color: chocolate;
+    text-decoration: underline;
 }
 a.bl {
     border: solid 1px;
